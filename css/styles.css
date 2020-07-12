@@ -1,0 +1,257 @@
+body{
+  font-family: "Open Sans" sans-serif;
+  margin: 0;
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+#title{
+      background-color:hsl(217, 28%, 15%);
+      background-image:url(../images/bg-curvy-desktop.svg);
+      background-repeat: no-repeat;
+       background-size: 100%;
+      background-position: bottom;
+
+}
+h1,h2,h3,h4,h5,h6{
+                font-family:"Raleway";
+                font-weight: 700;
+}
+.navbar{
+  padding:3rem 1rem 0.5rem;
+}
+.navbar-brand{
+
+}
+
+.nav-item{
+padding: 0 18px;
+}
+.nav-link{
+  font-family: "Raleway";
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 400;
+}
+.nav-link:hover{
+  color:hsl(0, 0%, 100%);
+}
+.title-image{
+  height:600px;
+  width: 600px;
+  padding-bottom: 50px;
+}
+.container-fluid{
+  padding: 3% 30%;
+}
+.title-h2{
+  padding: 17px 0 ;
+}
+.title-p{
+  padding: 0 12%;
+}
+.title-btn{
+  margin:10px 0 20px;
+  padding: 10px 70px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 30px;
+  background: hsl(176, 68%, 64%);
+  background-image: -webkit-linear-gradient(left,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  background-image: -moz-linear-gradient(left,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  background-image: -ms-linear-gradient(left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  background-image: -o-linear-gradient(left, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+.title-btn:hover{
+  background-image: -webkit-linear-gradient(top,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  background-image: -moz-linear-gradient(top,hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  background-image: -ms-linear-gradient(top, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  background-image: -o-linear-gradient(top, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  background-image: linear-gradient(to bottom, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+.fe-img{
+  height: 64px;
+  margin: 0 0 5%;
+}
+
+#features{
+      padding: 50px;
+}
+.fe-margin{
+  margin: 150px 0;
+}
+h4{
+  margin: 0 0 16px;
+}
+#features p{
+  margin: 0 0 32px;
+  padding: 0 60px;
+}
+.fe-content{
+  padding:
+}
+#productive{
+
+}
+.pro-content{
+  padding: 100px 20px 0  0;
+  text-align: left;
+
+}
+#productive a{
+  color: hsl(176, 68%, 64%);
+
+}
+#productive a:hover{
+  color: hsl(176, 68%, 64%);
+
+}
+#profiles{
+  background-image: url(../images/bg-quotes.png);
+    background-repeat:no-repeat;
+    margin: 10% 0;
+    padding: 100px;
+    text-align: left;
+  background-position: 6% 17%;
+
+}
+.pro-cards{
+  background-color: hsl(219, 30%, 18%);
+
+}
+.test-img{
+  width: 80%;
+  border-radius: 100%;
+  margin: 0 20px 20px 10px;
+}
+.col-img{
+    width: 48px;
+}
+#access{
+
+}
+.access{
+  border-radius: .50rem;
+  padding: 50px;
+  background-color:hsl(217, 28%, 15%);
+  margin: 0 250px;
+  position: relative;
+  top: 110px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+}
+.form{
+  border-radius: 1rem;
+}
+
+.row-col{
+  margin:  50px ;
+}
+.icon{
+  color: #fff;
+  padding: 10px;
+}
+.img-icon{
+  padding-right: 5px;
+}
+.logo-f{
+  padding: 130px 80px 0;
+}
+
+#footer a{
+
+         text-decoration: none;
+         color: #fff;
+}
+#footer{
+  font-weight: 400;
+  background-color: hsl(216, 53%, 9%);
+}
+.col-lg-2-5 {
+  margin: 0 20px;
+}
+
+
+@media (max-width:1128px) {
+
+  #title{
+        background-image:url(../images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        /* background-size: 100% ; */
+        /* -o-background-size: 100% 50%;
+        -webkit-background-size: 100% 50%; */
+        background-position:bottom;
+      }
+      .navbar{
+        padding:1rem 0.5rem 1rem;
+      }
+      .nav-logo{
+        width:90px;
+         height:30px;
+      }
+      .nav-item{
+      padding: 0 3px;
+      }
+      .title-image{
+        height:300px;
+        width: 300px;
+        /* padding: 50px 0; */
+      }
+      .container-fluid{
+        padding: 1%;
+      }
+      .title-h2{
+        padding: 10px 0 ;
+      }
+      .title-p{
+        padding: 0 14px ;
+      }
+      .fe-margin{
+        margin: 20px 0;
+      }
+      #features{
+            padding: 0;
+      }
+      #features p{
+        margin: 0 0 32px;
+        padding: 0 ;
+      }
+
+      #productive img{
+            width: 300px;
+            height: 350px;
+            margin: 0 0 50px;
+            padding: 10px;
+      }
+      .pro-content{
+        padding: 0 10px;
+        text-align: left;
+      }
+      .padd{
+        padding: 0 15px;
+      }
+        #profiles{
+          margin-top: 30%;
+            padding: 30px;
+            background-position: 4% 0;
+}
+
+.access{
+  padding: 10px;
+  margin: 10px;
+}
+.sub-btn{
+  margin: 0 auto;
+  width: 280px;
+}
+.col-lg-2-5 {
+  margin: 0;
+}
+.links{
+  padding: 15px 15px;
+}
+}
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
